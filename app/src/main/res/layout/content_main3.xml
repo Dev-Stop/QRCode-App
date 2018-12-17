@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saif.qrcodeapp.Main3Activity"
+    tools:showIn="@layout/app_bar_main3">
+
+
+
+        <ListView
+            android:id="@+id/lView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false"
+            android:layout_marginBottom="140dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pcsTotalTv"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"/>
+
+
+
+    <Button
+        android:background="@drawable/buttonbackground"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_New"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="23dp"
+        android:text="Cancel"
+        android:width="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:background="@drawable/buttonbackground"
+        android:textColor="@android:color/white"
+        android:id="@+id/ConfirmBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="23dp"
+        android:text="Confirm"
+        android:width="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+</RelativeLayout>

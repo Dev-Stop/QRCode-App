@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TagNoTV"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_below="@+id/TagNoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PartNoTV"
+        android:layout_weight="0.10" />
+    <TextView
+        android:layout_below="@id/PartNoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LocCodeTV"
+        android:layout_weight="0.10" />
+    <TextView
+        android:layout_below="@+id/LocCodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PCSTV"
+        android:layout_weight="0.10" />
+    <TextView
+        android:layout_below="@+id/PCSTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GrossWeightTV"
+        android:layout_weight="0.10" />
+    <TextView
+        android:layout_below="@+id/GrossWeightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescTV"
+        android:layout_weight="0.10" />
+    <TextView
+        android:layout_below="@+id/DescTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateTagged"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:background="@drawable/deletebutton"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/DeleteBtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
